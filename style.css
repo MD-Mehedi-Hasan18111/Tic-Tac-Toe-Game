@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:darkkhaki;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.container{
+    width: 249px;
+    margin: 50px auto 0 auto;
+    overflow: hidden;
+}
+
+.container span{
+    width: 100%;
+    background-color: darkorange;
+    display: block;
+    padding: 10px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+.container .box{
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border: 1px solid #000;
+    float: left;
+    font-size: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.container .box:hover{
+    background-color:#000;
+    color: #fff;
+}
+
+#playAgain{
+    background-color:#000;
+    color: #fff;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 22px;
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+#playAgain:hover{
+    box-shadow: 0 10px 20px #000;
+}
+
+/* winner box style */
+.win{
+    background-color: #000;
+    color: #fff;
+}
